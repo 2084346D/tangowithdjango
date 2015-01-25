@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+
+{% load staticfiles %} <!-- New line -->
+
+<html>
+
+    <head>
+        <title>Fact</title>
+    </head>
+
+    <body>
+        <h1>Everyone knows that</h1>
+        narwhals are sea unicorns <strong>{{ boldmessage }}</strong><br />
+        <a href="/rango">Home</a><br />
+        <img src="{% static "images/me.jpg" %}" alt="Picture of me" /> <!-- New line -->
+    </body>
+
+</html>
