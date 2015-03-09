@@ -12,7 +12,7 @@ import os
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 
-TEMPLATE_PATH = os.path.join(BASE_DIR, 'Templates')
+TEMPLATE_PATH = os.path.join(BASE_DIR, 'templates')
 
 TEMPLATE_DIRS = [
     # C:Users/Stephanie/Documents/Code/tango_with_django_project/Templates
@@ -27,8 +27,8 @@ STATICFILES_DIRS = (
     STATIC_PATH,
 )
 
-MEDIA_URL = '/Media/'
-MEDIA_ROOT = os.path.join(BASE_DIR, 'Media') # Absolute path to the media directory
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media') # Absolute path to the media directory
 
 
 # Quick-start development settings - unsuitable for production
