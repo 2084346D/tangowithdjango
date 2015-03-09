@@ -1,0 +1,17 @@
+{% extends 'rango/base.html' %}
+
+{% load staticfiles %}
+
+{% block title %}About{% endblock %}
+
+{% block body_block %}
+    <div class="page-header">
+                <h1>About</h1>
+            </div>
+            <div>
+            <p></strong>.</p>
+
+            <img  width="300" height="310" src="{% static "images/me.jpg" %}" alt="picture of me" /> <!-- New line -->
+            </div>
+	    This tutorial was put together by Stephanie Docherty, 2084346D<br />
+{% endblock %}
