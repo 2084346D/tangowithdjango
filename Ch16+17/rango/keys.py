@@ -1,0 +1,1 @@
+BING_API_KEY = pLNpa43+bkIPqu5KrBvk5PGbArRClOQChauXhiXuJIY
